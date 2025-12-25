@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Профессиональная стоматология в Александрии. Качественное лечение, современное оборудование, опытные специалисты. Запись на прием онлайн.">
+    <meta name="keywords" content="стоматолог Александрия, лечение зубов, имплантация, протезирование, отбеливание зубов">
+    <meta name="author" content="Dentist in Alexandria">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Dentist in Alexandria - Профессиональная стоматология">
+    <meta property="og:description" content="Современная стоматологическая клиника в Александрии. Полный спектр стоматологических услуг.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dentist-alexandria.com">
+    <meta property="og:image" content="https://dentist-alexandria.com/images/og-image.jpg">
+    <meta property="og:locale" content="ru_RU">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "Dentist in Alexandria",
+        "image": "https://dentist-alexandria.com/images/logo.jpg",
+        "telephone": "+7-XXX-XXX-XX-XX",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "ул. Примерная, д. 123",
+            "addressLocality": "Александрия",
+            "addressCountry": "RU"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "55.7558",
+            "longitude": "37.6173"
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00"
+        },
+        "priceRange": "$$"
+    }
+    </script>
+    
+    <title>Dentist in Alexandria - Профессиональная стоматология</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Версия для слабовидящих -->
+    <div class="accessibility-controls">
+        <button id="increaseFont" class="accessibility-btn" aria-label="Увеличить шрифт">А+</button>
+        <button id="decreaseFont" class="accessibility-btn" aria-label="Уменьшить шрифт">А-</button>
+        <button id="highContrast" class="accessibility-btn" aria-label="Высокий контраст">Контраст</button>
+        <button id="speakPage" class="accessibility-btn" aria-label="Озвучить страницу">🔊</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="header-container">
+            <div class="logo">
+                <a href="#home" aria-label="На главную">
+                    <span class="logo-text">Dentist in Alexandria</span>
+                </a>
+            </div>
+            
+            <nav class="nav" role="navigation" aria-label="Основная навигация">
+                <ul class="nav-list">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#team">Наша команда</a></li>
+                    <li><a href="#info">Информация</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-actions">
+                <a href="tel:+7-XXX-XXX-XX-XX" class="phone-link" aria-label="Позвонить">+7 (XXX) XXX-XX-XX</a>
+                <button class="btn-primary header-cta" id="headerFormBtn">Записаться</button>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Открыть меню" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <div class="header-info">
+            <span class="header-address">📍 ул. Примерная, д. 123, Александрия</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="main">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Стоматологическая клиника" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-main">
+                    <div class="hero-text">
+                        <h1 class="hero-title">Dentist in Alexandria</h1>
+                        <p class="hero-subtitle">Профессиональная стоматология с заботой о вашей улыбке</p>
+                        <div class="hero-info">
+                            <div class="hero-info-item">
+                                <div class="info-icon">⭐</div>
+                                <div class="info-content">
+                                    <h3>Более 10 лет</h3>
+                                    <p>Опыта работы</p>
+                                </div>
+                            </div>
+                            <div class="hero-info-item">
+                                <div class="info-icon">👨‍⚕️</div>
+                                <div class="info-content">
+                                    <h3>Опытные врачи</h3>
+                                    <p>Профессиональная команда</p>
+                                </div>
+                            </div>
+                            <div class="hero-info-item">
+                                <div class="info-icon">🏥</div>
+                                <div class="info-content">
+                                    <h3>Современное оборудование</h3>
+                                    <p>Новейшие технологии</p>
+                                </div>
+                            </div>
+                            <div class="hero-info-item">
+                                <div class="info-icon">💎</div>
+                                <div class="info-content">
+                                    <h3>Гарантия качества</h3>
+                                    <p>На все виды работ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hero-description">
+                            <p>Мы предоставляем полный спектр стоматологических услуг с использованием современных технологий и проверенных методик. Наша клиника оснащена передовым оборудованием, а команда состоит из опытных специалистов высшей категории.</p>
+                            <p>Более 10 лет мы помогаем нашим пациентам обрести здоровую и красивую улыбку. Индивидуальный подход к каждому пациенту, комфортные условия лечения и доступные цены - это то, что делает нас надежным выбором для всей семьи.</p>
+                        </div>
+                    </div>
+                    <div class="hero-images">
+                        <div class="hero-image-main">
+                            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Стоматолог за работой">
+                        </div>
+                        <div class="hero-image-secondary">
+                            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Современное оборудование">
+                        </div>
+                        <div class="hero-image-secondary">
+                            <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Комфортный кабинет">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Welcome Section -->
+    <section id="welcome" class="welcome section">
+        <div class="container">
+            <h2 class="section-title">Добро пожаловать в нашу клинику</h2>
+            <div class="welcome-content">
+                <div class="welcome-text">
+                    <p>Мы предлагаем полный спектр стоматологических услуг с использованием современного оборудования и проверенных методик лечения. Наша команда профессионалов стремится обеспечить максимальный комфорт и качество лечения для каждого пациента.</p>
+                    <p>Клиника работает более 10 лет, за это время мы помогли тысячам пациентов обрести здоровую и красивую улыбку. Мы постоянно совершенствуем свои знания и осваиваем новые технологии в стоматологии.</p>
+                </div>
+                <div class="welcome-image">
+                    <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Интерьер стоматологической клиники">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Forms Section -->
+    <section id="booking" class="booking-forms section">
+        <div class="container">
+            <h2 class="section-title">Записаться на прием</h2>
+            <div class="forms-grid">
+                <form class="booking-form" aria-label="Форма записи 1">
+                    <h3>Записаться на прием</h3>
+                    <input type="text" placeholder="Ваше имя" required aria-label="Имя">
+                    <input type="tel" placeholder="Телефон" required aria-label="Телефон">
+                    <button type="submit" class="btn-primary">Записаться</button>
+                </form>
+                
+                <form class="booking-form" aria-label="Форма записи 2">
+                    <h3>Быстрая запись</h3>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="tel" placeholder="+7 (___) ___-__-__" required>
+                    <select required>
+                        <option value="">Выберите услугу</option>
+                        <option value="consultation">Консультация</option>
+                        <option value="treatment">Лечение</option>
+                        <option value="implant">Имплантация</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Отправить</button>
+                </form>
+                
+                <form class="booking-form" aria-label="Форма записи 3">
+                    <h3>Онлайн консультация</h3>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Ваш вопрос" rows="3"></textarea>
+                    <button type="submit" class="btn-primary">Получить консультацию</button>
+                </form>
+                
+                <form class="booking-form" aria-label="Форма записи 4">
+                    <h3>Вызов на дом</h3>
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <input type="text" placeholder="Адрес" required>
+                    <button type="submit" class="btn-primary">Вызвать врача</button>
+                </form>
+                
+                <form class="booking-form" aria-label="Форма записи 5">
+                    <h3>Запись через мессенджер</h3>
+                    <input type="text" placeholder="Имя" required>
+                    <input type="tel" placeholder="Телефон" required>
+                    <select required>
+                        <option value="">Выберите мессенджер</option>
+                        <option value="whatsapp">WhatsApp</option>
+                        <option value="telegram">Telegram</option>
+                        <option value="viber">Viber</option>
+                    </select>
+                    <button type="submit" class="btn-primary">Связаться</button>
+                </form>
+                
+                <form class="booking-form" aria-label="Форма записи 6">
+                    <h3>Записаться онлайн</h3>
+                    <input type="text" placeholder="ФИО" required>
+                    <input type="tel" placeholder="Контактный телефон" required>
+                    <input type="date" required>
+                    <input type="time" required>
+                    <button type="submit" class="btn-primary">Подтвердить запись</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Терапевтическая стоматология</h3>
+                    <p>Лечение кариеса, пульпита, периодонтита. Реставрация зубов современными материалами.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">😁</div>
+                    <h3>Эстетическая стоматология</h3>
+                    <p>Отбеливание зубов, виниры, художественная реставрация для идеальной улыбки.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🦴</div>
+                    <h3>Имплантация</h3>
+                    <p>Установка дентальных имплантов различных систем с пожизненной гарантией.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Хирургическая стоматология</h3>
+                    <p>Удаление зубов, операции на деснах, имплантация, костная пластика.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">😬</div>
+                    <h3>Ортодонтия</h3>
+                    <p>Исправление прикуса с помощью брекет-систем и элайнеров для детей и взрослых.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Протезирование</h3>
+                    <p>Съемные и несъемные протезы, коронки, мостовидные протезы из различных материалов.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">👶</div>
+                    <h3>Детская стоматология</h3>
+                    <p>Лечение молочных и постоянных зубов у детей, профилактика кариеса, герметизация фиссур.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🦷</div>
+                    <h3>Профессиональная гигиена</h3>
+                    <p>Чистка зубов, удаление зубного камня, фторирование, профилактические процедуры.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="team section">
+        <div class="container">
+            <h2 class="section-title">Наша команда</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Доктор Иванов И.И.">
+                    </div>
+                    <h3>Доктор Иванов И.И.</h3>
+                    <p class="member-specialty">Главный врач, стоматолог-терапевт</p>
+                    <p class="member-experience">Опыт работы: 15 лет</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Доктор Петрова М.В.">
+                    </div>
+                    <h3>Доктор Петрова М.В.</h3>
+                    <p class="member-specialty">Стоматолог-хирург, имплантолог</p>
+                    <p class="member-experience">Опыт работы: 12 лет</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Доктор Сидоров А.П.">
+                    </div>
+                    <h3>Доктор Сидоров А.П.</h3>
+                    <p class="member-specialty">Ортодонт</p>
+                    <p class="member-experience">Опыт работы: 10 лет</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="https://images.unsplash.com/photo-1594824964085-4b5a6e4d1b0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Доктор Смирнова Е.А.">
+                    </div>
+                    <h3>Доктор Смирнова Е.А.</h3>
+                    <p class="member-specialty">Детский стоматолог</p>
+                    <p class="member-experience">Опыт работы: 8 лет</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Patient Information Section -->
+    <section id="info" class="patient-info section">
+        <div class="container">
+            <h2 class="section-title">Информация для пациентов</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>Подготовка к визиту</h3>
+                    <ul>
+                        <li>Приходите на прием за 10-15 минут до назначенного времени</li>
+                        <li>Возьмите с собой документы (паспорт, полис, медицинскую карту)</li>
+                        <li>Сообщите врачу о всех принимаемых лекарствах и аллергиях</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Режим работы</h3>
+                    <p><strong>Понедельник - Пятница:</strong> 9:00 - 18:00</p>
+                    <p><strong>Суббота:</strong> 10:00 - 16:00</p>
+                    <p><strong>Воскресенье:</strong> Выходной</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Способы оплаты</h3>
+                    <ul>
+                        <li>Наличные</li>
+                        <li>Банковские карты</li>
+                        <li>Безналичный расчет</li>
+                        <li>Рассрочка на лечение</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Гарантии</h3>
+                    <p>Мы предоставляем гарантию на все виды работ. Срок гарантии зависит от вида услуги и оговаривается индивидуально.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Sets Us Apart Section -->
+    <section id="advantages" class="advantages section">
+        <div class="container">
+            <h2 class="section-title">Что нас отличает</h2>
+            <div class="advantages-list">
+                <div class="advantage-item">
+                    <div class="advantage-icon">⭐</div>
+                    <h3>Многолетний опыт</h3>
+                    <p>Более 10 лет успешной работы и тысячи довольных пациентов</p>
+                </div>
+                
+                <div class="advantage-item">
+                    <div class="advantage-icon">🔬</div>
+                    <h3>Современные технологии</h3>
+                    <p>Используем только передовое оборудование и материалы последнего поколения</p>
+                </div>
+                
+                <div class="advantage-item">
+                    <div class="advantage-icon">👨‍⚕️</div>
+                    <h3>Опытные врачи</h3>
+                    <p>Все специалисты имеют высшее медицинское образование и регулярно повышают квалификацию</p>
+                </div>
+                
+                <div class="advantage-item">
+                    <div class="advantage-icon">💎</div>
+                    <h3>Индивидуальный подход</h3>
+                    <p>Составляем персональный план лечения для каждого пациента</p>
+                </div>
+                
+                <div class="advantage-item">
+                    <div class="advantage-icon">💰</div>
+                    <h3>Доступные цены</h3>
+                    <p>Прозрачное ценообразование без скрытых платежей, рассрочка</p>
+                </div>
+                
+                <div class="advantage-item">
+                    <div class="advantage-icon">🏥</div>
+                    <h3>Комфортные условия</h3>
+                    <p>Уютные кабинеты, приятная атмосфера, забота о вашем комфорте</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews section">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших пациентов</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">Анна К.</div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Отличная клиника! Лечила зубы здесь несколько раз. Врачи очень внимательные, все объясняют, лечение проходит безболезненно. Рекомендую!"</p>
+                    <div class="review-date">15.03.2024</div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">Михаил С.</div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Ставил имплант у доктора Петровой. Все прошло отлично, без осложнений. Персонал вежливый, клиника чистая и современная."</p>
+                    <div class="review-date">10.03.2024</div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">Елена В.</div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Привожу сюда детей уже несколько лет. Детский врач Смирнова просто волшебница - дети не боятся идут на прием. Спасибо!"</p>
+                    <div class="review-date">05.03.2024</div>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">Дмитрий Р.</div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">"Проходил ортодонтическое лечение. Результат превзошел ожидания! Брекеты сняли, улыбка идеальная. Очень доволен!"</p>
+                    <div class="review-date">28.02.2024</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form-section section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Свяжитесь с нами</h2>
+                    <div class="contact-item">
+                        <strong>Адрес:</strong>
+                        <p>ул. Примерная, д. 123, г. Александрия</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Телефон:</strong>
+                        <p><a href="tel:+7-XXX-XXX-XX-XX">+7 (XXX) XXX-XX-XX</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <p><a href="mailto:info@dentist-alexandria.com">info@dentist-alexandria.com</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Режим работы:</strong>
+                        <p>Пн-Пт: 9:00 - 18:00<br>Сб: 10:00 - 16:00</p>
+                    </div>
+                </div>
+                
+                <form class="main-contact-form" aria-label="Основная форма обратной связи">
+                    <h3>Записаться на прием</h3>
+                    <input type="text" name="name" placeholder="Ваше имя" required aria-label="Имя">
+                    <input type="tel" name="phone" placeholder="Телефон" required aria-label="Телефон">
+                    <input type="email" name="email" placeholder="Email" aria-label="Email">
+                    <select name="service" required>
+                        <option value="">Выберите услугу</option>
+                        <option value="consultation">Консультация</option>
+                        <option value="treatment">Лечение</option>
+                        <option value="implant">Имплантация</option>
+                        <option value="prosthetics">Протезирование</option>
+                        <option value="orthodontics">Ортодонтия</option>
+                        <option value="hygiene">Гигиена</option>
+                    </select>
+                    <textarea name="message" placeholder="Ваше сообщение" rows="5"></textarea>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.0!2d37.6173!3d55.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTXCsDQ1JzIwLjkiTiAzN8KwMzcnMDIuMyJF!5e0!3m2!1sru!2sru!4v1234567890"
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Карта расположения клиники">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <p>📍 ул. Примерная, д. 123<br>г. Александрия</p>
+                    <p>📞 <a href="tel:+7-XXX-XXX-XX-XX">+7 (XXX) XXX-XX-XX</a></p>
+                    <p>✉️ <a href="mailto:info@dentist-alexandria.com">info@dentist-alexandria.com</a></p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Разделы</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#team">Наша команда</a></li>
+                        <li><a href="#info">Информация</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Лечение</a></li>
+                        <li><a href="#services">Имплантация</a></li>
+                        <li><a href="#services">Протезирование</a></li>
+                        <li><a href="#services">Ортодонтия</a></li>
+                        <li><a href="#services">Детская стоматология</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+                        <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+                        <a href="#" aria-label="VKontakte" class="social-link">VKontakte</a>
+                        <a href="#" aria-label="WhatsApp" class="social-link">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Dentist in Alexandria. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal для форм -->
+    <div id="formModal" class="modal" aria-hidden="true" role="dialog">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Закрыть">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
